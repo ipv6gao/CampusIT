@@ -1,9 +1,12 @@
-#2017-12-07  开始使用github作为日常的日志工具
+## 2017-12-07  开始使用github作为日常的日志工具
 ------
-#2017-12-08  
+
+## 2017-12-08
+  
 早上白云7点钟断电，发现原来二楼的UPS也不能提供电源，估计也电池也损坏。有3台服务器来电后不能自主启动，8606 和8610 全部断电，白云电源的问题非常严重。
-            ###8606和8610的错误代码
-			'''
+
+### 8606和8610的错误代码
+			```
 			*Dec  7 22:58:25: %TIPC-6-NET_START: Started in network mode
             *Dec  7 22:58:25: %TIPC-6-NET_INFO: Own node address <1.1.90>, network identity 4711
             *Dec  7 22:58:25: %TIPC-6-ENABLE_BEARER: Enabled bearer <eth:s8696>, discovery domain <0.0.0>, priority 10
@@ -22,12 +25,15 @@
             *Dec  7 22:58:58: %OIR-6-INSCARD: Card inserted in slot 1, interfaces are now online.
             *Dec  8 06:59:09: %SYS-6-CLOCKUPDATE: System clock has been updated to 06:59:09 bj Fri Dec  8 2017.
             *Dec  8 06:59:11: %LINK-3-UPDOWN: Interface Loopback 0, changed state to up.
-         
-		    ###6810风扇错误代码
-		 '''
+         ```
+### 6810风扇错误代码
+		 ```
 		 2017-12-08 07:41:51  @4-ENTITYCHANGE:Fan 4 state has translated to work
          2017-12-08 07:41:51  @4-ENTITYCHANGE:Fan 4 state has translated to stop
          2017-12-08 07:41:53  @4-ENTITYCHANGE:Fan 4 state has translated to work
          2017-12-08 07:41:53  @4-ENTITYCHANGE:Fan 4 state has translated to stop
          2017-12-08 07:41:55  @4-ENTITYCHANGE:Fan 4 state has translated to work
          2017-12-08 07:41:55  @4-ENTITYCHANGE:Fan 4 state has translated to stop
+		 ```
+		 
+## 2017-12-09

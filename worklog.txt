@@ -1,2 +1,66 @@
 2017-12-07  fix a print
-2017-12-08  ÔçÉÏ°×ÔÆ7µãÖÓ¶Ïµç£¬·¢ÏÖÔ­À´¶şÂ¥µÄUPSÒ²²»ÄÜÌá¹©µçÔ´£¬¹À¼ÆÒ²µç³ØÒ²Ëğ»µ¡£ÓĞ3Ì¨·şÎñÆ÷À´µçºó²»ÄÜ×ÔÖ÷Æô¶¯£¬8606 ºÍ8610 È«²¿¶Ïµç£¬°×ÔÆµçÔ´µÄÎÊÌâ·Ç³£ÑÏÖØ¡£
+2017-12-08  æ—©ä¸Šç™½äº‘7ç‚¹é’Ÿæ–­ç”µï¼Œå‘ç°åŸæ¥äºŒæ¥¼çš„UPSä¹Ÿä¸èƒ½æä¾›ç”µæºï¼Œä¼°è®¡ä¹Ÿç”µæ± ä¹ŸæŸåã€‚æœ‰3å°æœåŠ¡å™¨æ¥ç”µåä¸èƒ½è‡ªä¸»å¯åŠ¨ï¼Œ8606 å’Œ8610 å…¨éƒ¨æ–­ç”µï¼Œç™½äº‘ç”µæºçš„é—®é¢˜éå¸¸ä¸¥é‡ã€‚
+            8610 çš„å†·å¯åŠ¨ä»£ç 
+*Dec  8 08:52:38: %TIPC-6-NET_START: Started in network mode
+*Dec  8 08:52:38: %TIPC-6-NET_INFO: Own node address <1.1.90>, network identity 4711
+*Dec  8 08:52:38: %TIPC-6-ENABLE_BEARER: Enabled bearer <eth:s8696>, discovery domain <0.0.0>, priority 10
+*Dec  8 08:52:39: %MODULE-6-INSTALL: Install Module M8600-02XFP24SFP/12GT-E in slot 2.
+*Dec  8 08:52:39: %REDUNDANCY-6-INITIALIZING: Initialize as master Supervisor.
+*Dec  8 08:52:39: %REDUNDANCY-6-STM_ON_MASTER: State Machine start up on master Supervisor.
+*Dec  8 08:52:39: %DP-6-FAN_OK: Fan 1/1 ok.
+*Dec  8 08:52:39: %DP-6-FAN_OK: Fan 1/2 ok.
+*Dec  8 08:52:39: %DP-6-FAN_OK: Fan 1/3 ok.
+*Dec  8 08:52:39: %DP-6-FAN_OK: Fan 1/4 ok.
+*Dec  8 08:52:39: %DP-6-FAN_OK: Fan 1/5 ok.
+*Dec  8 08:52:39: %DP-6-FAN_OK: Fan 1/6 ok.
+*Dec  8 08:52:39: %DP-6-POWER_OK: Power 1 ok.
+*Dec  8 08:52:39: %DP-6-POWER_OK: Power 2 ok.
+*Dec  8 08:52:42: %TIPC-6-ESTABLISHED_LINK: Established link <1.1.90:s8696-1.1.20:s8696> on network plane A, owner signature 11353, peer session 11353
+*Dec  8 08:53:24: %OIR-6-INSCARD: Card inserted in slot 2, interfaces are now online.
+*Dec  8 16:53:34: %SYS-6-CLOCKUPDATE: System clock has been updated to 16:53:34 bj Fri Dec  8 2017.
+*Dec  8 16:53:35: %SYS-6-CLOCKUPDATE: System clock has been updated to 16:53:35 bj Fri Dec  8 2017.
+*Dec  8 16:53:35: %GRTD-6-RUN_BYPASS: System boot-up diagnostic bypassed.
+*Dec  8 16:53:35: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback 0, changed state to up.
+*Dec  8 16:53:36: %LINK-5-CHANGED: Interface GigabitEthernet 2/9, changed state to administratively down.
+*Dec  8 16:53:36: %LINK-5-CHANGED: Interface GigabitEthernet 2/16, changed state to administratively down.
+*Dec  8 16:53:36: %LINK-3-UPDOWN: Interface Loopback 0, changed state to up.
+*Dec  8 16:53:40: %SYS-5-COLDSTART: System coldstart.
+         8606çš„å†·å¯åŠ¨ä»£ç 
+*Dec  7 22:58:25: %TIPC-6-ENABLE_BEARER: Enabled bearer <eth:s8696>, discovery domain <0.0.0>, priority 10
+*Dec  7 22:58:26: %MODULE-6-INSTALL: Install Module M8600-02XFP24SFP/12GT-E in slot 1.
+*Dec  7 22:58:26: %REDUNDANCY-6-INITIALIZING: Initialize as master Supervisor.
+*Dec  7 22:58:26: %REDUNDANCY-6-STM_ON_MASTER: State Machine start up on master Supervisor.
+*Dec  7 22:58:26: %DP-6-FAN_OK: Fan 1/1 ok.
+*Dec  7 22:58:26: %DP-6-FAN_OK: Fan 1/2 ok.
+*Dec  7 22:58:26: %DP-6-FAN_OK: Fan 1/3 ok.
+*Dec  7 22:58:26: %DP-6-FAN_OK: Fan 1/4 ok.
+*Dec  7 22:58:26: %DP-6-FAN_OK: Fan 1/5 ok.
+*Dec  7 22:58:26: %DP-6-FAN_OK: Fan 1/6 ok.
+*Dec  7 22:58:26: %DP-6-POWER_OK: Power 1 ok.
+*Dec  7 22:58:26: %DP-6-POWER_OK: Power 2 ok.
+*Dec  7 22:58:29: %TIPC-6-ESTABLISHED_LINK: Established link <1.1.90:s8696-1.1.10:s8696> on network plane A, owner signature 11353, peer session 11353
+*Dec  7 22:58:58: %OIR-6-INSCARD: Card inserted in slot 1, interfaces are now online.
+*Dec  8 06:59:09: %SYS-6-CLOCKUPDATE: System clock has been updated to 06:59:09 bj Fri Dec  8 2017.
+*Dec  8 06:59:11: %LINK-3-UPDOWN: Interface Loopback 0, changed state to up.
+*Dec  8 06:59:11: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback 0, changed state to up.
+*Dec  8 06:59:14: %SYS-6-CLOCKUPDATE: System clock has been updated to 06:59:14 bj Fri Dec  8 2017.
+*Dec  8 06:59:15: %GRTD-6-RUN_BYPASS: System boot-up diagnostic bypassed.
+*Dec  8 06:59:20: %SYS-5-COLDSTART: System coldstart.
+*Dec  8 06:59:24: %SPANTREE-6-RCVDTCBPDU: Received tc bpdu on port GigabitEthernet 1/13 on MST0.
+*Dec  8 06:59:24: %SPANTREE-6-RCVDTCBPDU: Received tc bpdu on port GigabitEthernet 1/13 on MST0.
+
+6806æŠ¥é£æ‰‡æ•…éšœ
+2017-12-08 07:41:51  @4-ENTITYCHANGE:Fan 4 state has translated to work
+2017-12-08 07:41:51  @4-ENTITYCHANGE:Fan 4 state has translated to stop
+2017-12-08 07:41:53  @4-ENTITYCHANGE:Fan 4 state has translated to work
+2017-12-08 07:41:53  @4-ENTITYCHANGE:Fan 4 state has translated to stop
+2017-12-08 07:41:55  @4-ENTITYCHANGE:Fan 4 state has translated to work
+2017-12-08 07:41:55  @4-ENTITYCHANGE:Fan 4 state has translated to stop
+2017-12-08 07:41:57  @4-ENTITYCHANGE:Fan 4 state has translated to work
+2017-12-08 07:41:57  @4-ENTITYCHANGE:Fan 4 state has translated to stop
+2017-12-08 07:41:59  @4-ENTITYCHANGE:Fan 4 state has translated to work
+2017-12-08 07:41:59  @4-ENTITYCHANGE:Fan 4 state has translated to stop
+2017-12-08 07:42:01  @4-ENTITYCHANGE:Fan 4 state has translated to work
+2017-12-08 07:42:01  @4-ENTITYCHANGE:Fan 4 state has translated to stop
+2017-12-08 07:42:05  @4-ENTITYCHANGE:Fan 4 state has translated to work
+2017-12-08 07:42:05  @4-ENTITYCHANGE:Fan 4 state has translated to stop

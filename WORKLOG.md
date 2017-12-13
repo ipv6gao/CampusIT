@@ -43,14 +43,18 @@
 
 ## 2017-12-13
 计算中心W2机房更换千兆交换机，协助配置交换机，原来是26.3，现在改为26.5和26.10两台设备。有几个要点：
+
 ###1 关闭广播抑制
-''' 
+```
 no storm-control broadcast
 no storm-control unicast	
+
 ###2 配置trunk 
+
 ###3 配置vlan
+
 ###4 设置Telnet密码，配置默认路由网管等。
-'''
+```
 interface VLAN 1
  no ip proxy-arp
  ip address 192.168.26.5 255.255.255.240

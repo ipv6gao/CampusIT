@@ -59,7 +59,7 @@ no storm-control unicast
 interface VLAN 1
  no ip proxy-arp
  ip address 192.168.26.5 255.255.255.240
- ！
+ !
  ip route 0.0.0.0 0.0.0.0 192.168.26.1
 !
 
@@ -68,9 +68,9 @@ line con 0
 line vty 0 4
  login
  password xxx
-！
+!
 
 clock timezone bj 8 0
-logging server 211.65.64.132
+logging server 222.65.164.132
 enable password xxx
 ```  

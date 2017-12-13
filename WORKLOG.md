@@ -48,12 +48,13 @@
 ```
 no storm-control broadcast
 no storm-control unicast	
-
+```
 ###2 配置trunk 
 
 ###3 配置vlan
 
 ###4 设置Telnet密码，配置默认路由网管等。
+
 ```
 interface VLAN 1
  no ip proxy-arp
@@ -72,4 +73,4 @@ line vty 0 4
 clock timezone bj 8 0
 logging server 211.65.64.132
 enable password xxx
-  
+```  

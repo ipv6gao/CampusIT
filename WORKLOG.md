@@ -79,4 +79,4 @@ enable password xxx
 
 ## 2017-12-18
 白云ss区的计费系统彻底瘫痪，无法启动，已经请示LD，准备月底或本周期结束后彻底关闭ss区网络。
-![故障的浪潮服务器，已经运行十多年了]
+![故障的浪潮服务器，已经运行十多年了]（https://github.com/ipv6gao/CampusIT/blob/master/images/20171219095318.png）
